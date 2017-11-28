@@ -16,6 +16,6 @@ RUN make install
 
 RUN make createdb
 
-EXPOSE 5000
+EXPOSE 5003
 
 CMD ["venv/bin/python", "services/user.py"]
