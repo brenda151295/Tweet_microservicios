@@ -12,8 +12,6 @@ RUN git clone https://github.com/brenda151295/Tweet_microservicios.git app
 
 WORKDIR /app
 
-RUN git checkout docker
-
 RUN make install
 
 RUN make createdb
